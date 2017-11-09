@@ -1,13 +1,12 @@
 // Code your solution in this file!
-function calculateVertical(start, end){
-  let feetInBlock = 264;
-
-  let blocksTraveled = Math.abs((end - start));
-
-  return blocksTraveled *feetInBlock
+function distanceFromHqInBlocks(blockNumber){
+  if (blockNumber > 42) {
+    return blockNumber - 42;
+  } else {
+    return 42 - blockNumber;
+  }
 }
 
-function distanceFromHqInBlocks(end){
-  let start = 42
-  return Math.abs(end - start);
+function distanceFromHqInFeet(end){
+  let blocksTraveled = 
 }
