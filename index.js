@@ -1,5 +1,6 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(blockNumber){
+
+function distanceFromHqInBlocks (blockNumber) {
   if (blockNumber > 42) {
     return blockNumber - 42;
   } else {
@@ -7,6 +8,6 @@ function distanceFromHqInBlocks(blockNumber){
   }
 }
 
-function distanceFromHqInFeet(end){
-  let blocksTraveled = 
+function distanceFromHqInFeet (blockNumber) {
+  return distanceFromHqInBlocks(blockNumber) * 264;
 }
