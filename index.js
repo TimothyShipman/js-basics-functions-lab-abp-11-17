@@ -6,3 +6,8 @@ function calculateVertical(start, end){
 
   return blocksTraveled *feetInBlock
 }
+
+function distanceFromHqInBlocks(end){
+  let start = 42
+  return Math.abs(end - start);
+}
